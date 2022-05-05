@@ -11,9 +11,6 @@ var rootCmd = &cobra.Command{
 	Use:   "lcs",
 	Short: "lcs is a very fast license generator",
 	Long:  `A fast and easy to use license generator, for you!`,
-	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("This is LCS")
-	},
 }
 
 func Execute() {
